@@ -2,6 +2,7 @@ import React from "react";
 
 export type Page =
   | "home" | "products" | "product-detail" | "fishermen-list" | "fisherman-profile"
+  | "ai-freshness"
   | "cart" | "checkout" | "user-dashboard"
   | "login" | "buyer-login" | "register"
   | "f-fisherman-login"

@@ -15,6 +15,7 @@ import {
   ProductDetailPage,
   FishermenListPage,
   FishermanProfilePage,
+  AIFreshnessPage,
 } from "../pages/public";
 
 // Buyer pages
@@ -66,6 +67,7 @@ export default function Router() {
       {page === "product-detail" && <ProductDetailPage />}
       {page === "fishermen-list" && <FishermenListPage />}
       {page === "fisherman-profile" && <FishermanProfilePage />}
+      {page === "ai-freshness" && <AIFreshnessPage />}
       {page === "cart" && <CartPage />}
       {page === "checkout" && <CheckoutPage />}
       {page === "user-dashboard" && <UserDashboard />}
